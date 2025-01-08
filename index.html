@@ -3,9 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Barbery Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">Barber<span>Style</span></h1>
+            <nav class="nav">
+                <button id="darkModeToggle">🌙</button>
+                <button id="languageToggle">EN/ES</button>
+                <button id="createAccount">Create Account</button>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="hero">
+            <h2 id="heroTitle">Welcome to BarberStyle</h2>
+            <p id="heroSubtitle">Experience the finest cuts and styles in town!</p>
+            <button class="btn" id="bookNow">Book Now</button>
+        </section>
+
+        <section class="services">
+            <h2 id="servicesTitle">Our Services</h2>
+            <div class="service-list">
+                <div class="service">
+                    <h3 id="cutTitle">Haircut</h3>
+                    <p id="cutDesc">Precision cuts tailored to your style.</p>
+                </div>
+                <div class="service">
+                    <h3 id="shaveTitle">Shaving</h3>
+                    <p id="shaveDesc">Smooth and luxurious shaving experience.</p>
+                </div>
+                <div class="service">
+                    <h3 id="styleTitle">Styling</h3>
+                    <p id="styleDesc">Trendy styles to make you stand out.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 BarberStyle. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
